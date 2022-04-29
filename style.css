@@ -1,3 +1,22 @@
+:root {
+  --mcf1: #000;
+  --mfc2: #ffff;
+  --bgc1: #ffff;
+  --bgc2: #85b4d7;
+}
 body {
-  background-color: aqua;
+  margin: 0;
+}
+.toprolling {
+  background-color: var(--bgc2);
+  color: var(--mfc2);
+}
+#topNav {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fill, minmax(20px, 1fr)); */
+  grid-template-columns: max-content;
+}
+footer {
+  background-color: var(--bgc2);
+  color: var(--mfc2);
 }
