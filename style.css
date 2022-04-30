@@ -10,8 +10,8 @@ body {
   margin: 0;
   width: auto;
   padding: 0;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
+  /* display: grid;
+  grid-template-rows: auto 1fr auto; */
 }
 .toprolling {
   background-color: var(--bgc2);
@@ -89,14 +89,16 @@ footer {
 /*SUSTAINABILITY*/
 /* Make the video responsive */
 #bgvid {
-  object-fit: cover;
-  object-position: left top; /*center; /**/
+  /* object-fit: cover; */
+  /*object-position: center; /*center; */
   width: 100vw;
-  height: 100vh; /* indicate that there's something below / you can scroll */
-  position: fixed;
+  height: 100vh; /* indicate that there's something belowyou can scroll */
+  /* position: fixed; */
+  /* position: relative; */
   top: 0;
-  left: 0;
-  z-index: -100;
+  left: 0; 
+  /* z-index: -100; */
+
   
 }
 
