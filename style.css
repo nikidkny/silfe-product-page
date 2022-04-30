@@ -42,23 +42,34 @@ li {
   list-style: none;
 }
 /* unvisited link */
-a:link {
+.menubar a:link {
   color: var(--mcf1);
+  text-decoration: none;
 }
-
+.bottomNav a:link {
+  color: var(--mfc2);
+  text-decoration: none;
+}
 /* visited link */
-a:visited {
+.menubar a:visited {
   color: var(--mcf1);
 }
-
+.bottomNav a:visited {
+  color: var(--mfc2);
+}
 /* mouse over link */
-a:hover {
+.menubar a:hover {
   color: var(--mcf1);
 }
-
+.bottomNav a:hover {
+  color: var(--mfc2);
+}
 /* selected link */
-a:active {
+.menubar a:active {
   color: var(--mcf1);
+}
+.bottomNav a:active {
+  color: var(--mcf2);
 }
 .logo {
   grid-column: 3;
