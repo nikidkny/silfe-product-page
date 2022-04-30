@@ -48,6 +48,9 @@ li {
   width: 100%;
 }
 .listMain {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-column-start: 1;
   padding-bottom: 5%;
 }
 .headline {
@@ -63,6 +66,11 @@ li {
   transform: translate(-50%, -50%);
 }
 .headlineImg {
+  width: 100%;
+}
+
+.staticstate,
+.hidden {
   width: 100%;
 }
 footer {
