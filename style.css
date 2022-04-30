@@ -41,6 +41,25 @@ body {
 li {
   list-style: none;
 }
+/* unvisited link */
+a:link {
+  color: var(--mcf1);
+}
+
+/* visited link */
+a:visited {
+  color: var(--mcf1);
+}
+
+/* mouse over link */
+a:hover {
+  color: var(--mcf1);
+}
+
+/* selected link */
+a:active {
+  color: var(--mcf1);
+}
 .logo {
   grid-column: 3;
 }
