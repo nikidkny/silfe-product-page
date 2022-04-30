@@ -83,3 +83,6 @@ footer {
   /* padding-bottom: 2%; */
   display: flex;
 }
+.hidden {
+  display: none;
+}
