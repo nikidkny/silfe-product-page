@@ -10,6 +10,8 @@ body {
   margin: 0;
   width: auto;
   padding: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 .toprolling {
   background-color: var(--bgc2);
@@ -49,7 +51,7 @@ li {
 }
 main {
   padding-bottom: 5%;
-  
+
 }
 .headline {
   /* width: 100%;
@@ -85,26 +87,19 @@ footer {
   display: flex;
 }
 /*SUSTAINABILITY*/
-
-/* .hero{
-  height: calc(100vh - 5.79rem);
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  background-color:#00000065;
-  box-sizing: border-box;
-} */
-/* video {
-  margin-top:4rem;
+/* Make the video responsive */
+#bgvid {
   object-fit: cover;
-  width:100%;
-  height: calc(100vh - 4rem);
-  position:absolute;
-  top:0;
-  left:0;
-  z-index:-1;
+  object-position: left top; /*center; /**/
+  width: 100vw;
+  height: 100vh; /* indicate that there's something below / you can scroll */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  
 }
- */
+
 @media screen and (max-width: 1650px) {
 
 }
