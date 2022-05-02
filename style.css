@@ -120,7 +120,7 @@ footer {
   z-index: -1;
 }
 video {
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 10 / 6;
 width:100%;
 display:flex;
 align-items: center;
