@@ -14,7 +14,7 @@ body {
 .toprolling {
   background-color: var(--bgc2);
   color: var(--mfc2);
-  padding: 0.5%;
+  padding: 1%;
   font-size: small;
 }
 #topNav {
