@@ -226,6 +226,25 @@ footer {
   grid-template-columns: 2fr 1fr 1fr 1fr;
   grid-template-rows: 5fr 0.5fr;
 }
+.form-signup {
+}
+.btn-signup {
+  line-height: 28px;
+  padding: 7px 15px;
+  height: auto;
+  color: #ffff;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.11);
+}
+.signupinput {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #ffff;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  line-height: 28px;
+  padding: 7px 15px;
+  height: auto;
+}
 .bottom a:hover {
   color: rgba(255, 255, 255, 0.43);
 }
@@ -235,6 +254,13 @@ footer {
 }
 .hidden {
   display: none;
+}
+.copywrite a:link {
+  color: var(--bgc1);
+  text-decoration: none;
+}
+.copywrite img {
+  width: 2%;
 }
 /*SUSTAINABILITY*/
 
