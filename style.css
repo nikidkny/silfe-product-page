@@ -134,14 +134,37 @@ justify-content: center;
   display:block;
   height:3rem;
 }
+/*Page content*/
+.SusContent {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
 #materials {
   display: grid;
 
 }
+.statement h1 {
+  font-size: 128px;
+}
+.statement {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .imageContainer {
-  position: relative;
+/*   position: relative; */
+background-image: url(/images/cotton.png);
+ }
+.what {
+  display: grid;
  
-
+}
+.vision {
+  display: grid;
+  grid-template-columns: 2fr  1fr;
+}
+.vision p {
+  font-size: 48px;
+  font-weight: 500;
 }
 .textblock {
   display: grid;
@@ -167,7 +190,7 @@ justify-content: center;
   padding-right: 1vw;
   background-color: white;
 }
-.headline h2 {
+.textblock h2 {
   font-weight: 700;
   font-size: 3rem;
   color: #000;
