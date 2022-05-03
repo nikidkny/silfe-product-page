@@ -102,8 +102,10 @@ footer {
   font-size:1.2rem;
   }
 .videosect{
-  height: calc(100vh - 5.79rem);
+  /* height: calc(100vh - 5.79rem); */
+ 
     width: 100%;
+    
     align-items: center;
     justify-content: center;
     background-color: #00000065;
@@ -113,14 +115,15 @@ footer {
   margin-top: 4rem;
   object-fit: cover;
   width: 100%;
-  height: calc(100vh - 4rem);
-  position: absolute;
+  aspect-ratio: 3/5;
+/*   height: calc(100vh - 4rem); */
+/*   position: absolute; */
   top: 0;
   left: 0;
   z-index: -1;
 }
 video {
-  aspect-ratio: 10 / 6;
+/*   aspect-ratio: 10 / 6; */
 width:100%;
 display:flex;
 align-items: center;
