@@ -5,27 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Products</title>
   </head>
   <body>
     <header>
       <div class="toprolling">Free shipping in Denmark</div>
       <nav id="topNav">
-        <div class="menubar">
-          <li><a href="#">New In</a></li>
-          <ol>
-            <a href="#">Shop</a>
-            <li>BAGS</li>
-            <li>Shop All</li>
-            <li>Crossbody Bags</li>
-            <li>Shoulder Bags</li>
-            <li>Tote Bags</li>
-            <li>Wallets</li>
-            <li>Clothing</li>
-          </ol>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Silfen Play</a></li>
-          <li><a href="#">SS22</a></li>
+        <div class="menubar container">
+          <button class="btn btn-newin">New In</button>
+          <div class="dropdown">
+            <button class="dropbtn btn">Shop</button>
+            <div class="dropdown-content hidden">
+              <p>BAGS</p>
+              <a href="#">Shop All</a>
+              <a href="#">Crossbody Bags</a>
+              <a href="#">Shoulder Bags</a>
+              <a href="#">Tote Bags</a>
+              <a href="#">Wallets</a>
+              <a href="#">Clothing</a>
+              <p>MATERIALS</p>
+              <a href="#">Recycled</a>
+              <a href="#">Polyurethane</a>
+              <a href="#">Leather</a>
+              <a href="#">Vegan</a>
+              <a href="#">Polyester</a>
+              <p>OTHER</p>
+              <a href="#">New Arrivals</a>
+              <a href="#">Protection & Care</a>
+              <a href="#">Drop 7 Prom</a>
+            </div>
+          </div>
+          <button class="btn btn-about">About</button>
+          <button class="btn btn-play">Silfen Play</button>
+          <button class="btn btn-ss22">SS22</button>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </div>
         <div class="logo">
           <a href="/index.html">
@@ -91,8 +110,8 @@
           </p>
         </div>
         <div class="bottomNav">
+          <h3>HELP</h3>
           <ul>
-            <h3>HELP</h3>
             <li><a href="#" target="_blank">About</a></li>
             <li><a href="#" target="_blank">Sustainability</a></li>
             <li><a href="#" target="_blank">Order Tracking</a></li>
